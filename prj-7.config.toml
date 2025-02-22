@@ -1,0 +1,18 @@
+[project]
+name = "prj-7"
+version = "1.0.0"
+
+
+[server]
+host = "localhost"
+port = 8080
+ssl = false
+
+[database]
+url = "duckdb://localhost:4566"
+name = "duckdb"
+username = "myuser"
+password = "mypassword"
+level = "info"
+
+
